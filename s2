@@ -1,0 +1,3 @@
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(169.0207824707, 5.1742935180664, 184.32670593262)
+			wait(2)
+			game:GetService("ReplicatedStorage").DealershipEvents.SpawnCar:FireServer("2019 Rolls-Royce Phantom","Civillian")
