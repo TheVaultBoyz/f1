@@ -1,4 +1,4 @@
-_G.kils = false
+_G.kills = false
 while wait(1) do
 if _G.kills == false then
 print("Spam kill off")
