@@ -1,6 +1,6 @@
 _G.kils = false
-print("Spam kill off")
 while wait(1) do
 if _G.kills == false then
+print("Spam kill off")
 end
 end
