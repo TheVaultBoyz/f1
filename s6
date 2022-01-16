@@ -1,0 +1,7 @@
+for k, v in next, game:GetService('Workspace'):GetChildren() do
+    if v.Name == 'WeaponSpawn' and v:FindFirstChild('Part') then
+	v:FindFirstChild('Part').CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+        wait(.1)
+        fireclickdetector(v:FindFirstChild('Part'):FindFirstChildOfClass('ClickDetector'))
+    end
+    end
