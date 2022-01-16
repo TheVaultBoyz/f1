@@ -1,1 +1,8 @@
-
+--auto god mode
+_G.loops = true
+while wait(1) do
+if _G.loops == true then
+game.ReplicatedStorage.CarbonResource.Events:GetChildren()[4]:FireServer(game:GetService("Workspace").pikolyo.Humanoid, -1 * math.huge, "Head", {'nil', 'Auth', 'nil', 'nil'})
+print("God Mode Active")
+end
+end
