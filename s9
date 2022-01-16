@@ -4,6 +4,7 @@ mouse.KeyDown:connect(function(key)
 if key == "m" then
 for i,v in pairs(game.Workspace:GetDescendants()) do
 if v.Name == "Cash" or v.Name == "PCash1" or v.Name == "PCash2" or v.Name == "PCash3" or v.Name == "PCash4" or v.Name == "PCash5" or v.Name == "PCash6" or v.Name == "PCash7" or v.Name == "PCash8" or v.Name == "PCash9" or v.Name == "PCash10" or v.Name == "PCash11" or v.Name == "PCash12" or v.Name == "PCash13" or v.Name == "PCash14" or v.Name == "PCash15" or v.Name == "PCash16" or v.Name == "PCash17" or v.Name == "PCash18" then
+v.Transparency = 1 
 v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 end
 end
