@@ -1,0 +1,8 @@
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("you have now executed infcash script", "All")
+wait(0.5)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("do the spawncar command and sit into your car", "All")
+wait(0.5)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("and execute the infcash command again for infinite money", "All")
+wait(0.5)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("check your wallet to see if your money has been given if not repeat the steps", "All")
+game:GetService("ReplicatedStorage").CustomizationEvents.ColorPaint:FireServer(-999999999999999999)
