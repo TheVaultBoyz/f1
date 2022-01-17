@@ -1,6 +1,4 @@
 			_G.spam = true
 			while _G.spam == true do
-			local var = string.sub(msg,space+1)
-			local target = GetPlayer(var)
-			game.ReplicatedStorage.CarbonResource.Events:GetChildren()[4]:FireServer(target.character.Humanoid, 100000000, "Head", {'nil', 'Auth', 'nil', 'nil'})
+			game.ReplicatedStorage.CarbonResource.Events:GetChildren()[4]:FireServer(target3.character.Humanoid, 100000000, "Head", {'nil', 'Auth', 'nil', 'nil'})
 			end
