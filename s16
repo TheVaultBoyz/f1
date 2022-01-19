@@ -1,0 +1,7 @@
+--auto god mode
+_G.loopss = false
+while wait(1) do
+if _G.loopss == false then
+print("God Mode Deactivated Just Reset")
+end
+end
