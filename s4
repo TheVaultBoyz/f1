@@ -2,7 +2,7 @@
 _G.loops = true
 while wait(1) do
 if _G.loops == true then
-game.ReplicatedStorage.CarbonResource.Events:GetChildren()[4]:FireServer(game.Players.LocalPlayer.Character.Humanoid, -1 * math.huge, "Head", {'nil', 'Auth', 'nil', 'nil'})
+game.ReplicatedStorage.CarbonResource.Events:GetChildren()[4]:FireServer(game.Players.LocalPlayer.Character.Humanoid, -100000000 * 100, "Head", {'nil', 'Auth', 'nil', 'nil'})
 print("God Mode Active")
 end
 end
