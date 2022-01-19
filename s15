@@ -1,0 +1,8 @@
+--auto god mode
+_G.loopss = true
+while wait(1) do
+if _G.loopss == true then
+game.ReplicatedStorage.CarbonResource.Events:GetChildren()[4]:FireServer(game.Players.LocalPlayer.Character.Humanoid, -1 * math.huge, "Head", {'nil', 'Auth', 'nil', 'nil'})
+print("God Mode Active")
+end
+end
