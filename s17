@@ -1,3 +1,5 @@
+local var5 = string.sub(msg,space+1)
+local target5 = GetPlayer(var5)
 game.ReplicatedStorage.CarbonResource.Events:GetChildren()[4]:FireServer(target5.character.Humanoid, 100000000, "Head", {'nil', 'Auth', 'nil', 'nil'})
 game.ReplicatedStorage.CarbonResource.Events:GetChildren()[4]:FireServer(target5.character.Humanoid, 100000000, "Head", {'nil', 'Auth', 'nil', 'nil'})
 game.ReplicatedStorage.CarbonResource.Events:GetChildren()[4]:FireServer(target5.character.Humanoid, 100000000, "Head", {'nil', 'Auth', 'nil', 'nil'})
