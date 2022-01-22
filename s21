@@ -1,0 +1,31 @@
+_G.KillA = true
+
+pcall(function()
+a = hookfunction(wait, function(b) if b ~= 0 and tostring(getcallingscript(a)) == "LocalScript" then return a() end return a(b) end)
+end)
+
+function hit()
+pcall(function()
+_G.Closest = nil
+_G.ClosestNum = 100
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+if v.Name ~= game.Players.LocalPlayer.Name then
+if tonumber((game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude) < tonumber(_G.ClosestNum) then
+_G.Closest = tostring(v)
+_G.ClosestNum = tonumber((game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude)
+_G.ClosestChar = v
+end
+end
+end
+end)
+
+
+game.ReplicatedStorage.CarbonResource.Events:GetChildren()[4]:FireServer(_G.ClosestChar.Character.Humanoid, 100000000, "Head", {'nil', 'Auth', 'nil', 'nil'})
+end
+
+while wait(1) do
+if _G.KillA == true then
+hit()
+print("Kill Aura Active")
+end
+end
