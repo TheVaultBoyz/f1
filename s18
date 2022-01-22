@@ -1,0 +1,6 @@
+for i,v in pairs(game.Players.LocalPlayer.OwnedCars:GetDescendants()) do do -- get workspace and his dependencies
+if v:IsA("BoolValue")  then -- replace "SubMachine Gun" with the object you want to fire the prompt
+v.Value = true
+end
+end
+end
