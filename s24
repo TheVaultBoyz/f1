@@ -1,0 +1,8 @@
+plr = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+if key == "b" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-108.94821166992, 16.671012878418, 496.87854003906)
+fireproximityprompt(game:GetService("Workspace")["Pickable Cash"].ProxPart.BruhIseenYoExploits)
+end
+end)
